@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+*{ padding: 0px; margin: 0px; }
+html{
+	/*scroll-behavior: smooth;*/
+}
+
+h1,h2{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+}
+
+small,strong{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+}
+
+nav a{
+	font-size: 15px;
+	color: black;
+}
+
+nav ul{
+	margin-right: 85px;
+}
+
+nav ul li{
+	padding-left: 30px;
+}
+
+nav ul li a{
+	font-family: 'Montserrat', sans-serif;
+}
+
+.header-img{
+	height: 360px;
+}
+
+.filter button{
+	background: none;
+	border: none;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.filter button:focus{
+	color: white;
+	background-color: black;
+	padding: 5px 20px 5px 10px;
+	border-radius: 5px;
+}
+
+.litle-about{
+	padding-top: 60px;
+}
+
+.litle-about a{
+	text-decoration: none;
+	color: black;
+}
+
+
+
+.person{
+	position: relative;
+}
+
+.person-name{
+	position: absolute;
+	top: 260px;
+	left: 16px;
+	background: yellow;
+	padding: 5px 150px 5px 10px;
+}
+
+.person-name strong{
+	font-size: 12px;
+}
+
+.person-name small{
+	font-size: 12px;
+}
+
+.card{
+	border: none;
+}
+
+form .card input{
+	border: none;
+}
+
+form .card textarea{
+	border: none;
+}
+
+
+.text-right small a{
+	text-decoration: none;
+	color: white;
+}
+
+@media only screen and (max-width: 768px){
+	.header-img{
+		margin-top: 5px;
+		height: 100px;
+	}
+
+	.branding{
+		text-align: center;
+	}
+}
+
+@media only screen and (max-width: 1060px){
+	.header-img{
+		height: 250px;
+	}
+}
